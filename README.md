@@ -13,13 +13,13 @@ The modifications were limited to the loss function. In SepFormer, the Si-SNR va
 ## Results
 
 <table>
-<caption> Si-SNR と SDR
+<caption> Si-SNR and SDR
 <thread>
 <th>model<th>Si-SNRi<th>SDR
 <tbody>
-<tr><td style="text-align:left;"> 元の SepFormer<td>-13.59<td>
+<tr><td style="text-align:left;"> Original SepFormer<td>-13.59<td>
 <tr><td style="text-align:left;"> SepReformer<td>13.68<td>14.16
-<tr><td style="text-align:left;"> 改修した SepFormer<td>14.74<td>15.58
+<tr><td style="text-align:left;"> Modified SepFormer<td>14.74<td>15.58
 </table>
 
 Libri2Mix 8k min sep-clean train-100 data with batch_size = 1 and epoch = 10.
